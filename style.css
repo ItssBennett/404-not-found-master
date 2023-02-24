@@ -1,0 +1,33 @@
+.toptext{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    padding-top: 10%;
+    padding-left: 55px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+h1{
+   word-spacing: 100%; 
+}
+
+button{
+    font-size: x-small;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}
