@@ -1,31 +1,64 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container-fluid col-sm">
-    <p class="toptext"> 404 NOT FOUND</p>
-    </div>
-    <div class="container col-sm">
-        <img src="Scarecrow.png">
-     </div>
-     <div class="container col-sm">
-        <h1>I &nbsp; HAVE &nbsp; BAD &nbsp; NEWS <br> FOR YOU</h1>
-        <h6>The page you are looking <br>
-        for might be removed or is <br>
-        temporarily unavailable</h3>
-        <button type="button" class="btn btn-dark">BACK TO HOMEPAGE</button>
-     </div>
-     <footer>created by ItssBennett -devChallenges.io </footer>
+    <head>
+       
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+        
+    
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="devchallenges.png" type="image/x-icon">
+        <title>404 NOT FOUND</title>
+    </head>
 
-     <script src="node_modules/jquery/dist/jquery.js"></script>
-     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-</body>
+    <body>
+        <header>
+            
+            <h1 id="not-found">404 NOT FOUND</h1>
+        </header>
+
+        <main>
+      
+            <div class="main-container">
+   
+                <div class="img-container">
+                    <img src="Scarecrow.png" alt="scarecrow illustration"
+                    id="scarecrow">
+                </div>
+                
+              
+                    <h1 id="bad-news">I have bad news for you</h1>
+    
+                    <p id="error-message">
+                        The page you are looking for might 
+                        be removed or is temporarily unavailable
+                    </p>
+    
+                    <a>
+                        <button id="back-to-homepage">
+                            back to homepage
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            
+            <p id="footer-text">
+                created by
+
+                <!-- link goes to github profile of the creator -->
+                <a href="https://github.com/ItssBennett" 
+                target="_blank" id="creator">Matt Bennett</a>
+
+                - devChallenges.io
+            </p>
+        </footer>
+    </body>
 </html>
